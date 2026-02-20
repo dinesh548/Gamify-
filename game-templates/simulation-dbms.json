@@ -1,0 +1,64 @@
+{
+  "gameId": "simulation-dbms-001",
+  "title": "Database Design Scenario",
+  "description": "Make decisions in a database design scenario",
+  "type": "simulation",
+  "difficulty": "intermediate",
+  "skillsTagged": ["DBMS"],
+  "xpReward": 18,
+  "timeLimit": 1200,
+  "questions": [
+    {
+      "id": "s1",
+      "description": "You're designing a database for an e-commerce platform. You need to store product information and customer orders. What's the best approach?",
+      "options": [
+        "Single table with all data",
+        "Separate tables: Products, Orders, OrderItems with proper relationships",
+        "One table per customer",
+        "Store everything in JSON format"
+      ],
+      "correctChoice": "Separate tables: Products, Orders, OrderItems with proper relationships",
+      "points": 5,
+      "explanation": "Normalized database design with proper relationships ensures data integrity and avoids redundancy."
+    },
+    {
+      "id": "s2",
+      "description": "A query is running slowly on a table with millions of records. What should you do first?",
+      "options": [
+        "Add more RAM",
+        "Create an index on the columns used in WHERE clause",
+        "Delete old records",
+        "Restart the database server"
+      ],
+      "correctChoice": "Create an index on the columns used in WHERE clause",
+      "points": 5,
+      "explanation": "Indexes significantly speed up queries by allowing faster data retrieval without scanning entire tables."
+    },
+    {
+      "id": "s3",
+      "description": "You need to ensure that once an order is placed, inventory is automatically updated. What database feature should you use?",
+      "options": [
+        "Stored Procedure",
+        "Trigger",
+        "View",
+        "Function"
+      ],
+      "correctChoice": "Trigger",
+      "points": 4,
+      "explanation": "Triggers automatically execute actions when specific events occur, perfect for maintaining data consistency."
+    },
+    {
+      "id": "s4",
+      "description": "Multiple users are trying to update the same record simultaneously. What mechanism prevents conflicts?",
+      "options": [
+        "Transactions with locking",
+        "Backup",
+        "Replication",
+        "Indexing"
+      ],
+      "correctChoice": "Transactions with locking",
+      "points": 4,
+      "explanation": "Transactions with proper locking mechanisms ensure ACID properties and prevent concurrent update conflicts."
+    }
+  ]
+}

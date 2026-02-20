@@ -1,0 +1,7 @@
+{
+  "name": "game-engine",
+  "version": "1.0.0",
+  "description": "Reusable JSON-based game engine",
+  "main": "index.js",
+  "type": "commonjs"
+}

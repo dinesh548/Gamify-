@@ -1,0 +1,33 @@
+{
+  "gameId": "coding-dsa-001",
+  "title": "Two Sum Problem",
+  "description": "Solve the classic Two Sum problem efficiently",
+  "type": "coding",
+  "difficulty": "intermediate",
+  "skillsTagged": ["DSA"],
+  "xpReward": 25,
+  "timeLimit": 1800,
+  "questions": [
+    {
+      "id": "c1",
+      "description": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+      "points": 10,
+      "testCases": [
+        {
+          "input": "nums = [2,7,11,15], target = 9",
+          "expectedOutput": "[0,1]"
+        },
+        {
+          "input": "nums = [3,2,4], target = 6",
+          "expectedOutput": "[1,2]"
+        },
+        {
+          "input": "nums = [3,3], target = 6",
+          "expectedOutput": "[0,1]"
+        }
+      ],
+      "expectedPattern": "function",
+      "hint": "Use a hash map to store seen numbers and their indices for O(n) time complexity."
+    }
+  ]
+}

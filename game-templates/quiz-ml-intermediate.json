@@ -1,0 +1,66 @@
+{
+  "gameId": "quiz-ml-intermediate-001",
+  "title": "Machine Learning Fundamentals",
+  "description": "Test your ML knowledge: algorithms, evaluation, and concepts",
+  "type": "quiz",
+  "difficulty": "intermediate",
+  "skillsTagged": ["ML"],
+  "xpReward": 20,
+  "timeLimit": 900,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What is the purpose of cross-validation?",
+      "options": [
+        "To increase training data",
+        "To evaluate model performance on unseen data",
+        "To reduce overfitting",
+        "Both B and C"
+      ],
+      "correctAnswer": "Both B and C",
+      "points": 3,
+      "explanation": "Cross-validation helps evaluate performance and reduce overfitting by testing on different data splits."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which algorithm is best suited for non-linear classification?",
+      "options": ["Linear Regression", "Logistic Regression", "Decision Tree", "K-Means"],
+      "correctAnswer": "Decision Tree",
+      "points": 3,
+      "explanation": "Decision trees can handle non-linear relationships through hierarchical decision boundaries."
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "Overfitting occurs when a model performs well on training data but poorly on test data.",
+      "correctAnswer": true,
+      "points": 2,
+      "explanation": "Yes, overfitting means the model memorized training data but doesn't generalize well."
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "What does 'bias-variance tradeoff' refer to?",
+      "options": [
+        "Balancing model complexity",
+        "Choosing between algorithms",
+        "Data preprocessing",
+        "Feature selection"
+      ],
+      "correctAnswer": "Balancing model complexity",
+      "points": 4,
+      "explanation": "The tradeoff between underfitting (high bias) and overfitting (high variance) by adjusting model complexity."
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which metric is best for imbalanced classification problems?",
+      "options": ["Accuracy", "Precision", "F1-Score", "Both B and C"],
+      "correctAnswer": "Both B and C",
+      "points": 3,
+      "explanation": "Accuracy can be misleading with imbalanced data. Precision and F1-Score provide better insights."
+    }
+  ]
+}

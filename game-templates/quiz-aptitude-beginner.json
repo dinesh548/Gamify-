@@ -1,0 +1,62 @@
+{
+  "gameId": "quiz-aptitude-001",
+  "title": "Aptitude Test: Logical Reasoning",
+  "description": "Practice logical reasoning questions for placement tests",
+  "type": "quiz",
+  "difficulty": "beginner",
+  "skillsTagged": ["Aptitude"],
+  "xpReward": 12,
+  "timeLimit": 600,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "If all roses are flowers and some flowers fade quickly, then:",
+      "options": [
+        "All roses fade quickly",
+        "Some roses fade quickly",
+        "No roses fade quickly",
+        "Cannot be determined"
+      ],
+      "correctAnswer": "Cannot be determined",
+      "points": 3,
+      "explanation": "We know roses are flowers, but we don't know if roses are among the flowers that fade quickly."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What comes next in the series: 2, 6, 12, 20, 30, ?",
+      "options": ["40", "42", "44", "46"],
+      "correctAnswer": "42",
+      "points": 3,
+      "explanation": "The pattern is: +4, +6, +8, +10, so next is +12. 30 + 12 = 42."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A train travels 120 km in 2 hours. How long will it take to travel 180 km at the same speed?",
+      "options": ["2.5 hours", "3 hours", "3.5 hours", "4 hours"],
+      "correctAnswer": "3 hours",
+      "points": 2,
+      "explanation": "Speed = 120/2 = 60 km/h. Time = 180/60 = 3 hours."
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "If today is Monday, what day will it be after 25 days?",
+      "options": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+      "correctAnswer": "Friday",
+      "points": 3,
+      "explanation": "25 days = 3 weeks + 4 days. Monday + 4 days = Friday."
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Find the odd one out: Apple, Banana, Carrot, Orange",
+      "options": ["Apple", "Banana", "Carrot", "Orange"],
+      "correctAnswer": "Carrot",
+      "points": 2,
+      "explanation": "Carrot is a vegetable, while others are fruits."
+    }
+  ]
+}
