@@ -55,6 +55,7 @@ npm run dev:frontend # Frontend on http://localhost:3000
 ## 🌐 Deployment
 
 ### Frontend (Vercel)
+
 1. Push code to GitHub
 2. Import project in Vercel
 3. Set build command: `cd frontend && npm run build`
@@ -62,6 +63,7 @@ npm run dev:frontend # Frontend on http://localhost:3000
 5. Deploy!
 
 ### Backend (Render)
+
 1. Create new Web Service on Render
 2. Connect GitHub repository
 3. Set build command: `cd backend && npm install`
@@ -77,7 +79,9 @@ npm run dev:frontend # Frontend on http://localhost:3000
 ## 🎯 Core Concepts
 
 ### Game Engine
+
 The reusable game engine loads games from JSON files. Each game defines:
+
 - Metadata (title, description, type)
 - Difficulty levels
 - Questions/scenarios
@@ -85,11 +89,19 @@ The reusable game engine loads games from JSON files. Each game defines:
 - Skill tags
 
 ### Adaptive Intelligence
+
 Tracks accuracy, response time, and attempts to automatically adjust difficulty and recommend next games.
 
 ### Learning Paths
+
 Analyzes skill gaps and suggests personalized learning journeys based on employability goals.
 
 ## 📝 License
 
-MIT
+# MIT
+
+# Gamify-
+
+project on designing game engine with frontend and backend
+
+> > > > > > > b11f589bde3887a93e3b51f645f254cf0ba287f4
